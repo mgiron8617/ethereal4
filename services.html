@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="my second project" />
+    <title>Ethereal Wellness</title>
+    <link href="services.css" rel="stylesheet" />
+    <link rel="icon" href="pics/butterfly icon.PNG" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <nav class="nav-row">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+      </ul>
+      <h1>Ethereal Wellness</h1>
+      <ul>
+        <li><a href="quotes.html" class="nav-link">Quotes</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar1 bar"></span>
+        <span class="bar2 bar"></span>
+        <span class="bar3 bar"></span>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="quotes.html" class="nav-link">Quotes</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <section class="services">
+      <div class="services-block">
+        <div class="services-text">
+          <p class="title">Services</p>
+          <p class="text">
+            We offer countless services and workshops to have a pleasant stay at
+            our ethereal realm. Feel free to browse our most popular services
+            and consider booking an appointment. To book, please use our contact
+            section to schedule a day and time.
+          </p>
+          <p class="text">We appreciate your visitation!</p>
+        </div>
+        <div class="icons">
+          <div class="steps">
+            <i class="material-symbols-outlined" id="icon">browse_activity</i>
+            <p class="sub-text sub">Browse<br />services</p>
+          </div>
+          <i class="material-symbols-outlined" id="arrow"> arrow_right_alt </i>
+          <i class="material-symbols-outlined" id="down"> south </i>
+          <div class="steps">
+            <i class="material-symbols-outlined" id="icon">contacts</i>
+            <p class="sub-text sub">Contact<br />to book</p>
+          </div>
+          <i class="material-symbols-outlined" id="arrow"> arrow_right_alt </i>
+          <i class="material-symbols-outlined" id="down"> south </i>
+          <div class="steps">
+            <i class="material-symbols-outlined" id="icon">calendar_month</i>
+            <p class="sub-text sub">Schedule an<br />appointment</p>
+          </div>
+          <i class="material-symbols-outlined" id="arrow"> arrow_right_alt </i>
+          <i class="material-symbols-outlined" id="down"> south </i>
+          <div class="steps">
+            <i class="material-symbols-outlined" id="icon"
+              >emoji_transportation</i
+            >
+            <p class="sub-text sub">Visit our<br />magical realm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-list">
+      <p class="title">
+        Browse Our Most Popular<br />Therapeutic Magical Services
+      </p>
+      <p class="sub-text under-title">- Click on image to view description -</p>
+      <div class="list">
+        <div class="singular" onclick="toggleOverlay('one', this)">
+          <img src="pics/gleaming fairy flying.jpg" class="picture" />
+          <p class="text sub-title">Gleaming Fairy Flying</p>
+          <div class="overlay sub-text" id="one">
+            <p class="sub-text overlay-text">
+              Create your own fairy wings! Experience a magical moment with our
+              fairies as you fly around our gleaming fairy dust to balance your
+              energy.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('two', this)">
+          <img src="pics/astrology art therapy.jpg" class="picture" />
+          <p class="text sub-title">Astrology Art Therapy</p>
+          <div class="overlay sub-text" id="two">
+            <p class="sub-text overlay-text">
+              Delve into your artistic work by exploring your natal chart with
+              the help of our astro creatures. You will learn about your birth
+              chart and piece together an understanding of your existence.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('three', this)">
+          <img src="pics/mermaid meditation.jpg" class="picture" />
+          <p class="text sub-title">Mermaid Meditation</p>
+          <div class="overlay sub-text" id="three">
+            <p class="sub-text overlay-text">
+              5 senses! Through our underwater subway, enter the oceanic kingdom
+              to meet with our mesmerizing mermaids. Learn all about our 5
+              senses meditation practices with the use of ocean melodies,
+              hypnotic spells, irresistible touch by sea creatures, and much
+              more.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('four', this)">
+          <img src="pics/space self-exploration.jpg" class="picture" />
+          <p class="text sub-title">Space Self-Exploration</p>
+          <div class="overlay sub-text" id="four">
+            <p class="sub-text overlay-text">
+              Explore and navigate our journey quest. Our quest guides you to
+              face challenges at every stop in the universe with an ultimate
+              prize awaiting your presence in the very end. Learn how to handle
+              difficult situations in your life with the help of our starlight
+              angels.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('five', this)">
+          <img src="pics/mushroom mindfulness.png" class="picture" />
+          <p class="text sub-title">Mushroom Mindfulness</p>
+          <div class="overlay sub-text" id="five">
+            <p class="sub-text overlay-text">
+              Connect with nature as you breathe in the illuminating dust under
+              our mushrooms to eliminate bad energy spreading throughout your
+              body. Our mushrooms provide clarity, wisdom, and mindfulness for a
+              breathtaking magical experience.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('six', this)">
+          <img src="pics/dwarfs wood workshop.jpg" class="picture" />
+          <p class="text sub-title">Dwarfs Wood Workshop</p>
+          <div class="overlay sub-text" id="six">
+            <p class="sub-text overlay-text">
+              Become friends and learn to craft with our 7 dwarfs! Craft wood
+              creations as you help to build and expand our beauty that is our
+              mystical realm. We are always looking to enhance our world for a
+              better experience and with your ideas, it makes us value
+              collaboration and teamwork.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('seven', this)">
+          <img src="pics/botanical tea.jpg" class="picture" />
+          <p class="text sub-title">Botanical Tea</p>
+          <div class="overlay sub-text" id="seven">
+            <p class="sub-text overlay-text">
+              Love tea? Our team of hornet fairies provide excellent teachings
+              on how to create herb teas with honey and enchanting pixie dust.
+              Create your very own delightful tea with your preference amount of
+              sweetener to cleanse the soul.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('eight', this)">
+          <img src="pics/visual storytelling sails.jpg" class="picture" />
+          <p class="text sub-title">Visual Storytelling Sails</p>
+          <div class="overlay sub-text" id="eight">
+            <p class="sub-text overlay-text">
+              Sail away in our canoe as you travel along inside our blaze
+              cavern. Enjoy a pleasant visual story that depicts memories of
+              your childhood for a realization of your purpose in world.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('nine', this)">
+          <img src="pics/crystal chemist creation.jpg" class="picture" />
+          <p class="text sub-title">Crystal Chemist Creation</p>
+          <div class="overlay sub-text" id="nine">
+            <p class="sub-text overlay-text">
+              Be a scientist for a day! Play around and learn to create potions
+              for medication. Use our healing crystals and book of ancient
+              quartz medicine to create various forms of potions to help cure
+              sickness.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('ten', this)">
+          <img src="pics/oak tale tellings.jpg" class="picture" />
+          <p class="text sub-title">Oak Tale Tellings</p>
+          <div class="overlay sub-text" id="ten">
+            <p class="sub-text overlay-text">
+              Sit and relax as our ancient oak tree reads a fairytale of your
+              choosing. Learn to become independent and escape the world for a
+              short moment under the illuminating fairy lights.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('eleven', this)">
+          <img src="pics/forest fears triumph.jpg" class="picture" />
+          <p class="text sub-title">Forest Fears Triumph</p>
+          <div class="overlay sub-text" id="eleven">
+            <p class="sub-text overlay-text">
+              Our biggest fears are our worst enemies, therefore our team of
+              forest dragons provide assistance to help tag team against your
+              worst fear. Battle it out and live life with fearlessness.
+            </p>
+          </div>
+        </div>
+        <div class="singular" onclick="toggleOverlay('twelve', this)">
+          <img src="pics/unicorn daydreams.jpg" class="picture" />
+          <p class="text sub-title">Unicorn Daydreams</p>
+          <div class="overlay sub-text" id="twelve">
+            <p class="sub-text overlay-text">
+              Take a ride with our mystical unicorns as you fly around our soft
+              white fluffly clouds to transcend into your daily dreams. Become
+              apart of the world you think about every day to help promote
+              optimism and the idea to stay positive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="navigate">
+        <p class="footer-title">Navigate</p>
+        <p><a class="footer-text nav-text" href="index.html">Home</a></p>
+        <p><a class="footer-text nav-text" href="services.html">Services</a></p>
+        <p><a class="footer-text nav-text" href="quotes.html">Quotes</a></p>
+        <p><a class="footer-text nav-text" href="contact.html">Contact</a></p>
+      </div>
+      <div class="important">
+        <p class="footer-title">Important</p>
+        <p class="footer-text">All images are not own by me.</p>
+        <p class="footer-text">
+          All information is for<br />fictional use purposes.
+        </p>
+        <p class="footer-text">© Ethereal Wellness 2024</p>
+      </div>
+      <div class="icon">
+        <img src="pics/butterfly logo.png" class="logo" />
+      </div>
+      <div class="location">
+        <p class="footer-title">Location</p>
+        <p class="footer-text">333 Ethereal Woodland</p>
+        <p class="footer-text">Enter through the<br />transcendent portal</p>
+      </div>
+      <div class="contact">
+        <p class="footer-title">Contact</p>
+        <p class="footer-text">hello@etherealwellness.com</p>
+        <p class="footer-text">Phone: (123) 456-7890</p>
+      </div>
+    </footer>
+    <script>
+      const toggleButton = document.getElementsByClassName("hamburger")[0];
+      const navLinks = document.getElementsByClassName("nav-menu")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+
+      function toggleOverlay(overlayId, clickedDiv) {
+        var overlay = document.getElementById(overlayId);
+        var image = clickedDiv.querySelector(".picture");
+
+        // Function to update overlay dimensions
+        function updateOverlayDimensions() {
+          overlay.style.width = image.clientWidth + "px";
+          overlay.style.height = image.clientHeight + "px";
+          overlay.style.top = image.offsetTop + "px";
+          overlay.style.left = image.offsetLeft + "px";
+        }
+
+        // Calculate and set overlay dimensions and position based on the clicked image
+        updateOverlayDimensions();
+
+        // Toggle the display of the overlay
+        overlay.style.display =
+          overlay.style.display === "none" || overlay.style.display === ""
+            ? "block"
+            : "none";
+
+        // Event listener for window resize
+        window.onresize = function () {
+          updateOverlayDimensions();
+        };
+      }
+    </script>
+  </body>
+</html>
